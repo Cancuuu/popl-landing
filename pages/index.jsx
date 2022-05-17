@@ -28,7 +28,13 @@ export default function Home() {
         </button>
       </nav>
       <main className="container mx-auto h-screen flex justify-center">
-        <img src="/maintitle.svg" alt="" className="mx-auto my-auto" />
+        <Image
+          src="/maintitle.svg"
+          alt=""
+          className="mx-auto my-auto"
+          width={800}
+          height={800}
+        />
       </main>
     </div>
   );
