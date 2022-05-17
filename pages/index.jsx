@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import React, { useEffect, useState } from "react";
 
 export default function Home() {
   return (
@@ -27,8 +28,17 @@ export default function Home() {
           ENTER APP
         </button>
       </nav>
-      <main className="container mx-auto h-screen flex flex-col justify-center text-center">
-        <Image src="/maintitle.svg" alt="" width={300} height={300} />
+      <main className="container mx-auto h-screen flex flex-col justify-center items-center">
+        <div>
+          <Image src="/maintitle.svg" alt="" width={600} height={300} />
+        </div>
+        <div className="flex justify-center items-center">
+          <h2
+            className={`text-3xl text-[#FFE94D] font-semibold transition-colors`}
+          >
+            SAVE YOUR CURRENT LOCATION FOREVER
+          </h2>
+        </div>
       </main>
     </div>
   );
