@@ -30,7 +30,7 @@ export default function Home() {
       </nav>
       <main className="container mx-auto h-screen flex flex-col justify-center items-center">
         <div>
-          <Image src="/maintitle.svg" alt="" width={600} height={300} />
+          <Image src="/2maintitle.svg" alt="" width={600} height={300} />
         </div>
         <div className="flex justify-center items-center">
           <h2
