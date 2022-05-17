@@ -27,14 +27,8 @@ export default function Home() {
           ENTER APP
         </button>
       </nav>
-      <main className="container mx-auto h-screen flex justify-center">
-        <Image
-          src="/maintitle.svg"
-          alt=""
-          className="mx-auto my-auto"
-          width={800}
-          height={800}
-        />
+      <main className="container mx-auto h-screen flex flex-col justify-center text-center">
+        <Image src="/maintitle.svg" alt="" width={300} height={300} />
       </main>
     </div>
   );
